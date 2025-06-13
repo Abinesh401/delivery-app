@@ -1,0 +1,98 @@
+.cart{
+    margin-top: 100px;
+}
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: rgb(4, 15, 26);
+    font-size: max(1vw 20px);
+   
+}
+.card-items-item{
+    margin: 10px 0px;
+    color: black;
+    
+}
+.card-items-item img{
+    width: 60px;
+}
+.cart hr{
+    height: 1px;
+    background-color: rgb(19, 18, 17);
+    border: none;
+}
+.card-items-item .cross{
+    cursor: pointer;
+
+}
+.card-bottom{
+    margin-top: 80PX;
+    display:flex;
+    justify-content: center;
+    gap: max(12vw,20px);
+}
+.card-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-total-details{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(26, 25, 25);
+}
+.card-total hr{
+    margin: 10px 0px;
+}
+.card-total button{
+    border: none;
+    color: rgb(160, 159, 157);
+    background-color: rgb(21, 22, 24);
+    width: max(15vw,200px);
+    padding: 12PX 0PX;
+    border-radius: 4PX;
+    cursor: pointer;
+    font-size: 16PX;
+    font-weight: 500;
+}
+.card-promocode{
+    flex: 1;
+}
+.card-promocode p{
+    color: rgb(24, 23, 23);
+}
+.card-promocode-input {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(141, 133, 133);
+    border-radius: 4px;
+}
+.card-promocode-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}   
+.card-promocode-input button{
+    width: max(10vw,150px);
+    padding: 12px 5px;
+    background-color: rgb(22, 21, 21);
+    border: none;
+    color: rgb(130, 135, 139);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+@media (max-width:750px) {
+    .card-bottom{
+        flex-direction: column-reverse;
+    }
+    .card-promocode{
+        justify-content: start;
+    }
+}

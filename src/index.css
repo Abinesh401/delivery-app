@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    background-color: rgb(104, 88, 83);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    color:rgb(19, 8, 8);
+}
+.app{
+    width: 80%;
+    margin: auto;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
